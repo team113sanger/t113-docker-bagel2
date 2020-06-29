@@ -8,7 +8,7 @@ ENV LC_ALL C.UTF-8
 ENV LANG C.UTF-8
 
 # ALL tool versions used by opt-build.sh
-ENV VER_BAGEL_COMMIT="6dbc775"
+ENV VER_BAGEL_COMMIT="f9eedca"
 
 # ALL tool versions used by opt-build.sh
 ENV VER_NUMPY="1.16.6"
@@ -39,7 +39,7 @@ RUN bash build/opt-build.sh $OPT
 FROM ubuntu:18.04 
 
 LABEL maintainer="vo1@sanger.ac.uk" \
-      version="2.0 (build 113 commit 6dbc775)" \
+      version="2.0 (build 114 commit f9eedca)" \
       description="BAGEL2 container"
 
 MAINTAINER  Victoria Offord <vo1@sanger.ac.uk>
